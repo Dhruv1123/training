@@ -1,17 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms</title>
-</head>
-<body>
-<h2>Html Forms</h2>
-<form action="book1.xlx">
-    Name<input type="text">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+    </head>
+    <body>
+        <h2>Html Forms</h2>
+        <form action="backend.php">
+    <label for="Reset Now"></label>  
+    <label for="Submit nOW"></label>
+    <label for="What Do You think"></label>
+    <label for="Ohter pLANET"></label>
+    <label for="Female"></label>
+    <label for="Male"></label>
+    <label for="Age"></label>
+    <label for="Email"></label>
+    <label for="What I am TO You"></label>
+    <label for="Birthtime"></label>
+    <label for="Birthday"></label>
+    <label for="Surname"></label>
+    <label for="Name"></label>
+    Name<input type="text" name="Name" id="Name">
+    
+    <br>
+    <br>
+    Surname<input type="text" name="Surname" id="Surname">
+    <br>
+    <br>
+    BirthDay<input type="date" name="BirthDay" id="Birthday">
+    <br>
+    <br>
+    Birthtime<input type="time" name="Birthtime" id="Birthtime">
+    <br>
+    <br>
+    <div>
+        What I am TO You<input type="text" name=" What I am TO You" id="What I am TO You">
+    </div>
+    <br>  
+        <div>
+        Email<input type="email" name="email" id="Email" >
+    </div>
+    <br>
+    Age<input type="number" name="number" id="Age"><br><br>
+    Gender= Male<input type="checkbox" checked id="Male">  Female<input type="checkbox" id="Female"> Other Planet Wale<input type="checkbox" checked id="Ohter pLANET">
+        <!-- <p>By using a Div tag you form text on new lines...... Put Text Inside Div tag</p> -->
+        <div>
+What Do You Think About Me Write Down
+</Write> <br><textarea name="What Do You Think About Me "  cols="30" rows="10" id="What Do You think"></textarea>
+<!-- use text area tag for large text boxss -->
+<br>
+<br>
+        </div>
+        <input type="submit" value="Submit Now" id="Submit nOW">
+        <input type="reset" value="Reset Now" id="Reset Now"><br>
 
-
+    
 
 </form>
 </body>
